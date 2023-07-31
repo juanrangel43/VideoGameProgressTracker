@@ -159,12 +159,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="GameProgressStatus.h" />
     <ClInclude Include="GameProgressTracker.h" />
     <ClInclude Include="main.h" />
     <ClInclude Include="Toolbars.h" />
     <ClInclude Include="VideoGameDisplay.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="GameProgressStatus.cpp" />
     <ClCompile Include="GameProgressTracker.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Toolbars.cpp" />
