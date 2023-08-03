@@ -5,7 +5,6 @@
 #include <vector>
 #include <regex>
 #include "VideoGameDisplay.h"
-#include "GameProgressTracker.h"
 
 
 
@@ -56,7 +55,8 @@ void VideoGameDisplay::displayImage()
 
 void VideoGameDisplay::loadPngImages()
 {
-	std::string pngFolder = "C:\\Users\\juanr\\OneDrive\\Documents\\Personal\\Projects\\C++\\Video Game Progress Tracker\\Video Game Progress Tracker\\Img_Games";
+	//std::string pngFolder = "C:\\Users\\juanr\\OneDrive\\Documents\\Personal\\Projects\\C++\\Video Game Progress Tracker\\Video Game Progress Tracker\\Img_Games";
+	std::string pngFolder = "C:\\Users\\juanr\\Documents\\Coding\\C++\\VideoGameProgressTracker\\Video Game Progress Tracker\\Img_Games";
 
 	std::filesystem::path gamePngLocation = pngFolder;
 

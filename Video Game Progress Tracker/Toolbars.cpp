@@ -15,11 +15,18 @@ Toolbars::Toolbars(wxFrame *parent)
 
 void Toolbars::constructToolBar()
 {
-    
+    /*
     exit = "C:\\Users\\juanr\\OneDrive\\Documents\\Personal\\Projects\\C++\\Video Game Progress Tracker\\Video Game Progress Tracker\\Img_Toolbar\\exit.png";
     wxString wxExit(exit);
 
     open = "C:\\Users\\juanr\\OneDrive\\Documents\\Personal\\Projects\\C++\\Video Game Progress Tracker\\Video Game Progress Tracker\\Img_Toolbar\\open.png";
+    wxString wxOpen(open);
+    */
+
+    exit = "C:\\Users\\juanr\\Documents\\Coding\\C++\\VideoGameProgressTracker\\Video Game Progress Tracker\\Img_Toolbar\\exit.png";
+    wxString wxExit(exit);
+
+    open = "C:\\Users\\juanr\\Documents\\Coding\\C++\\VideoGameProgressTracker\\Video Game Progress Tracker\\Img_Toolbar\\open.png";
     wxString wxOpen(open);
 
     wxImage::AddHandler(new wxPNGHandler);
