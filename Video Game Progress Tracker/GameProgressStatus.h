@@ -12,9 +12,11 @@ class GameProgressStatus : public wxPanel
 {
 public:
 	GameProgressStatus(wxFrame *);
-
 	void ProgressDisplay();
-	void StatusBar(wxPaintEvent &);
+
+	void StatusBar();
+	void OnPaintDrawStatus(wxPaintEvent &event);
+
 
 private:
 	wxPanel *mpGPS;

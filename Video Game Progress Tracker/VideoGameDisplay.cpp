@@ -19,9 +19,6 @@ VideoGameDisplay::VideoGameDisplay(wxFrame *parent)
 	pMainFrame = parent;
 	pVGDisplay = this;
 
-	Connect(wxID_EXIT, wxEVT_COMMAND_TOOL_CLICKED,
-		wxCommandEventHandler(VideoGameDisplay::displayNext));
-
 	imageChangeBtns();
 
 	loadPngImages();
