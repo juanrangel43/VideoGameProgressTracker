@@ -20,13 +20,22 @@ public:
 	void MainProgCheckBoxProperties();
 	void OnToggle(wxCommandEvent &event);
 
+	void ProgressCounter();
 
 private:
 	wxPanel *mpGPS;
 
 	wxWindow *pCollapsPaneWin;
 	wxCollapsiblePane *mpMainProgress;
-	wxCheckBox *mpCB;
+	wxCheckBox *mpCB1, *mpCB2;
+
+	// Status Bar Variables
+	double completenessValue;
+	int rectWidth;
+
+	// progressCounter Variables
+	int numOfTickedBoxes;
+	int totalCheckBoxes;
 };
 
 const int ID_CHECKBOX = 100;
